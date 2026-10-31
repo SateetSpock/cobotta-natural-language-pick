@@ -1,0 +1,57 @@
+{
+  "robot_ip": "192.168.0.1",
+  "robot_port": 5007,
+  "camera_ip": "192.168.0.90",
+  "model": "gemini-robotics-er-2-preview",
+  "image_size": [
+    1920,
+    1080
+  ],
+  "image_points": [
+    [
+      1243,
+      1025
+    ],
+    [
+      1239,
+      152
+    ],
+    [
+      335,
+      1029
+    ],
+    [
+      331,
+      154
+    ]
+  ],
+  "robot_points": [
+    [
+      133.85,
+      -84.54
+    ],
+    [
+      244.56,
+      -85.37
+    ],
+    [
+      135.22,
+      29.41
+    ],
+    [
+      245.24,
+      28.31
+    ]
+  ],
+  "pick_z_mm": 4.5,
+  "lift_mm": 40.0,
+  "rx_deg": 179.47,
+  "ry_deg": 0.93,
+  "horizontal_rz_deg": -174.4,
+  "open_mm": 30.0,
+  "hand_speed_percent": 20.0,
+  "robot_speed_percent": 100.0,
+  "move_timeout_seconds": 60,
+  "hand_timeout_seconds": 15,
+  "max_image_age_seconds": 300
+}
